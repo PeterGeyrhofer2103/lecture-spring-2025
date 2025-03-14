@@ -12,6 +12,7 @@ Following two functions are included:
 
 ### predict_q: 
 Scope: The function is used to predict the annual output of wind energy for a wind turbine in MWh, which is needed to calculate the LCOE.
+
 Usage: python predict_q <capacity> (Power in MW) <capacity_factor> (efficiency 0 to 1) <hours_per_year> (default: 8760h)
 Output: wind energy in MWh/year
 
