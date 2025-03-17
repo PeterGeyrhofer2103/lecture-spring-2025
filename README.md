@@ -6,6 +6,8 @@ This project is released under an MIT LICENSE.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+Code embedded in this repo is used as a demo for the lecture.
+
 This is a code used to calculate levelized costs of electricity for any given energy system powered by wind. Furthermore the annual output of wind energy can be predicted seperately.
 
 Following two functions are included:
