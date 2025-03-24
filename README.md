@@ -15,7 +15,7 @@ Following two functions are included:
 ### predict_q: 
 Scope: The function is used to predict the annual output of wind energy for a wind turbine in MWh, which is needed to calculate the LCOE.
 
-relevant parameters: 
+#### relevant parameters: 
 
 -capacity (Power in MW)
 
@@ -23,12 +23,12 @@ relevant parameters:
 
 -hours_per_year (default: 8760h)
 
-Output: wind energy in MWh/year
+#### Output: wind energy in MWh/year
 
 ### calculate_lcoe:
 Scope: This function is used to calculate the levelized costs of elecricity for wind energy. This function embedds predict_q.
 
-relevant parameters:
+#### relevant parameters:
 
 -WACC (decimal form) 
 
@@ -42,4 +42,4 @@ relevant parameters:
 
 -capacity_factor (efficiency 0 to 1)
 
-Output: LCOE in €/MWh
+#### Output: LCOE in €/MWh
