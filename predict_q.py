@@ -20,13 +20,13 @@ def predict_q(capacity, capacity_factor, hours_per_year=8760):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:  # check if all parameters are there
+    if len(sys.argv) != 3:#check if all parameters are there
         print(
             "Define following parameters: python predict_q.py <capacity> <capacity_factor>"
         )
         sys.exit(1)
 
-    try:  # check if parameters are the right dimension
+    try:#check if parameters are the right dimension
         capacity = float(sys.argv[1])
         capacity_factor = float(sys.argv[2])
 
